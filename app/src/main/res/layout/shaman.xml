@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="344dp"
+        android:layout_height="609dp"
+        android:text="The Shaman is one of five playable classes in Wynncraft and uses a relik as its weapon. Its base defense is 50%, making the Shaman the least durable class in the game. To compensate, its base damage is 120%, the same as the Archer's, and has an incredibly unique playstyle. The Shaman excels at crowd-control due to its unique arsenal of spells, three of which rely on the Shaman's first spell, Totem. Its second spell, Haul, is excellent for moving quickly around the Totem. Its third and most powerful spell, Aura, fires a wave of particles from the Totem that damages anything in its path. And finally, its fourth spell, Uproot, can move enemies around and can even move the Totem itself. Its main attack fires three bolts, one going straight and the others going to the side, each dealing 33% damage."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/shaman" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

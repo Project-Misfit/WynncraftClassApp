@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="406dp"
+        android:layout_height="732dp"
+        android:text="The Mage is one of Wynncraft's five playable classes and uses a wand as its weapon. With a base armour rating of 80%, the mage is known for its unique attack, powerful spells, and team support, the Mage uses magic spells to get rid of their opponents. With their great party support spells, they can be an important part of your party. The Mage is a good &quot;all-rounder&quot; class, with decent defense and range, but it does however have the weakest attack, with all three other classes doing far more basic damage. The Mage overcompensates with its extremely powerful Meteor spell, ofttimes dealing the most damage out of all spells with the right build. Despite Meteor having such high damage, Mages can turn that potential into support capabilities as a battle medic."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/mage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
